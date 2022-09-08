@@ -20,7 +20,7 @@ const App = () => {
 
     const dispatch = useDispatch();
   
-  const newContact = (name,number) => {
+  const newContact = (name, number) => {
     const action = addContact( name, number );
     dispatch(action)
   }
